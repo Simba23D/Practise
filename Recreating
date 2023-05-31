@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Log in To Twitter/Twitter</title>
+        <link rel="icon" type="image/x-icon" href="Documents/twitter.png">
+        <style>
+            *{
+                background-color: darkgray;
+            }
+            ul li{
+                list-style-type: none;
+                background-color: white;
+            }
+            .container
+            {
+             width: 500px;
+             height: auto;
+             border-radius: 30px;
+             background-color: white;
+             padding-left: 5px;
+             padding-right: 50px;
+             margin: auto;
+             text-align: justify;
+             padding-top: 20px;  
+             padding-bottom: 20px;  
+             margin-top: 100px;
+            }
+            ul li input{
+                background-color: white;
+                padding-top: 10px;
+                margin-top: 20px;
+                text-align: center;
+                border-radius: 10px;
+                width: 250px;
+                height: 30px;
+                border-color: darkgray;
+            }
+            ul {
+                background-color: white;
+                text-align: center;
+            }
+            h2{
+                background-color: white;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .next
+            {
+                width:100px;
+                height:30px;
+                background-color: black;
+                color:white;
+            }
+            .sign{
+                background-color: white;
+            }
+            
+        </style>
+    </head>
+    <body>
+       
+        <div class="container">
+            <ul>
+                <li><h2>Sign in to Twitter</h2></li>
+
+                <li><input type="text" name="Google" placeholder="Sign in with Google"> </li>
+                <li><input type="text" name="Apple" placeholder="Sign in with Apple" > </li>
+                <li><input type="text" name="phone number" placeholder="Phone,email address, or username"> </li>
+                <li><input type="button" name="Next" value="Next" class="next"> </li>
+                <li><input type="button" name="Forgot" value="Forgot Password?" > </li>
+               <br>
+                <li>Don't have an account? <a href="https://twitter.com" title="Sign Up" target="_blank" class="Sign">Sign Up </a>  </li>
+            </ul>
+        </div>
+        
+    </body>
+</html>
